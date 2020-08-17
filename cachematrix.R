@@ -5,7 +5,7 @@
 library(MASS)
 makeCacheMatrix <- function(x = matrix()) {
   inv<-NULL      ##initializing inverse as NULL
-  setfunction(y){
+  set<-function(y){
                x<<-y
                inv<<-NULL
                }
